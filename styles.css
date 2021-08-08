@@ -17,7 +17,7 @@
 
 
 .no {
-  opacity: 25%
+  opacity: 30%
 }
 .big_title {
   font-size:6vh;
@@ -31,4 +31,10 @@
 .name {
   font-size:3vh;
   text-align:center;
+}
+
+
+.hover img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05)
 }
